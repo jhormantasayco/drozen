@@ -1,0 +1,26 @@
+{
+    "name": "jhormantasayco/drozen",
+    "description": "Show greetings in multiple languages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jhorman Alexander Tasayco Tasayco",
+            "email": "jhormantasayco@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Jhormantasayco\\Drozen\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Jhormantasayco\\Drozen\\Tests\\": "tests"
+        }
+    }
+}
