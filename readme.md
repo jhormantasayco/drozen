@@ -6,6 +6,8 @@ Show greetings in multiple languages in your next PHP project.
 [![Latest Stable Version](https://poser.pugx.org/jhormantasayco/drozen/v/stable)](https://packagist.org/packages/jhormantasayco/drozen)
 [![Total Downloads](https://poser.pugx.org/jhormantasayco/drozen/downloads)](https://packagist.org/packages/jhormantasayco/drozen)
 [![License](https://poser.pugx.org/jhormantasayco/drozen/license)](https://packagist.org/packages/jhormantasayco/drozen)
+[![Sonar Cloud](https://sonarcloud.io/api/project_badges/measure?project=jhormantasayco_drozen&metric=alert_status)](https://sonarcloud.io/dashboard?id=jhormantasayco_drozen)
+
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=jhormantasayco_drozen)](https://sonarcloud.io/dashboard?id=jhormantasayco_drozen)
 
 ## Installation
