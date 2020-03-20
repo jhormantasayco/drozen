@@ -11,10 +11,19 @@ class Greeting
 	 * @var $greetings
 	 */
 	protected $greetings = [
-		"Hola",
-		"Hello",
 		"Bonjour",
-		"Olá"
+		"Hola",
+		"Zdravstvuyte",
+		"Nǐn hǎo",
+		"Salve",
+		"Konnichiwa",
+		"Guten Tag",
+		"Olá",
+		"Goddag",
+		"Shikamoo",
+		"Goedendag",
+		"Yassas",
+		"Dzień dobry",
 	];
 
 	public function __construct($greetings = NULL){
