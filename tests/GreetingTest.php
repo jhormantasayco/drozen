@@ -17,12 +17,12 @@ class GreetingTest extends TestCase
 	}
 
 	/** @test */
-	public function it_success(){
+	public function true_is_true(){
 
 		$this->assertTrue(true);
 	}
 
-	public function test_it_false(){
+	public function test_false_is_false(){
 
 		$this->assertFalse(false);
 	}

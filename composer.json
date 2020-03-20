@@ -1,15 +1,23 @@
 {
     "name": "jhormantasayco/drozen",
     "description": "Show greetings in multiple languages",
+    "keywords": [
+        "drozen",
+        "greetings"
+    ],
+    "homepage": "https://github.com/jhormantasayco/drozen",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Jhorman Alexander Tasayco Tasayco",
-            "email": "jhormantasayco@gmail.com"
+            "email": "jhormantasayco@gmail.com",
+            "role" : "Develper"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.2"
+    },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
     },
@@ -22,5 +30,13 @@
         "psr-4" : {
             "Jhormantasayco\\Drozen\\Tests\\": "tests"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
     }
 }
