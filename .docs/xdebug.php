@@ -30,4 +30,8 @@
  *
  * @link (https://laravelpackageboilerplate.com/#/)
  *
+ **** Badges ****
+ *
+ * @link (https://poser.pugx.org/)
+ *
  */

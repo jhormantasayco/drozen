@@ -2,6 +2,12 @@
 
 Show greetings in multiple languages in your next PHP project.
 
+[![Build Status](https://travis-ci.org/jhormantasayco/drozen.svg?branch=master)](https://travis-ci.org/jhormantasayco/drozen.svg?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/jhormantasayco/drozen/v/stable)](https://packagist.org/packages/jhormantasayco/drozen)
+[![Total Downloads](https://poser.pugx.org/jhormantasayco/drozen/downloads)](https://packagist.org/packages/jhormantasayco/drozen)
+[![License](https://poser.pugx.org/jhormantasayco/drozen/license)](https://packagist.org/packages/jhormantasayco/drozen)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=jhormantasayco_drozen)](https://sonarcloud.io/dashboard?id=jhormantasayco_drozen)
+
 ## Installation
 
 Require the package using composer.
