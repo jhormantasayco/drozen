@@ -26,7 +26,12 @@ class Greeting
 		"Dzień dobry",
 	];
 
-	public function __construct($greetings = NULL){
+	/**
+	 * Block comment
+	 *
+	 * @return void
+	 */
+	public function __construct($greetings = NULL) {
 
 		$greetings = $greetings ? (array) $greetings : [];
 
@@ -38,7 +43,7 @@ class Greeting
 	 *
 	 * @return void
 	 */
-	public function message(){
+	public function message() {
 
 		$randomIndex = array_rand($this->greetings);
 

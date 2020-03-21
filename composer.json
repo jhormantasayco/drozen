@@ -19,6 +19,7 @@
         "php": "^7.2"
     },
     "require-dev": {
+        "orchestra/testbench": "^5.1",
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
@@ -38,5 +39,15 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jhormantasayco\\Drozen\\GreetingServiceProvider"
+            ],
+            "aliases": {
+                "Greeting": "Jhormantasayco\\Drozen\\Facade\\Greeting"
+            }
+        }
     }
 }
