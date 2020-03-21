@@ -17,7 +17,7 @@ class GreetingController
     		'greeting' => Greeting::message()
     	]);
 
-        return Greeting::message();
+        //return Greeting::message();
     }
 
 }
